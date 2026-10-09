@@ -177,7 +177,7 @@ async function readRecords(path, limit) {
 
 async function evaluateOne(model, record, zdr) {
   const built = buildQuestion(record);
-  const providerOptions = zdr ? { gateway: { zeroDataRetention: true } } : undefined;
+  const providerOptions = zdr ? { gateway: { zeroDataRetention: false } } : undefined;
   const result = await evaluate({
     model,
     state: record.state,

@@ -1,0 +1,28 @@
+5-fold cross-validation over 300 tickets (seed 0)
+per-type temperature, mean over folds: choice 2.19, noul 0.66, score 2.57
+
+method                         type         n     acc     NLL     ECE
+raw                            choice     300   0.890   0.495   0.082
+raw                            noul       300   0.920   0.276   0.076
+raw                            score      300   0.430   1.246   0.338
+raw                            all        900   0.747   0.672   0.114
+
+global T                       choice     300   0.890   0.328   0.068
+global T                       noul       300   0.920   0.381   0.195
+global T                       score      300   0.430   1.014   0.175
+global T                       all        900   0.747   0.574   0.098
+
+per-type T                     choice     300   0.890   0.329   0.055
+per-type T                     noul       300   0.920   0.259   0.043
+per-type T                     score      300   0.430   1.002   0.147
+per-type T                     all        900   0.747   0.530   0.072
+
+hybrid (Jev)                   score      300   0.660   0.749   0.045
+
+hybrid (+meta)                 score      300   0.743   0.644   0.066
+
+per-type T + hybrid (+meta)    choice     300   0.890   0.329   0.055
+per-type T + hybrid (+meta)    noul       300   0.920   0.259   0.043
+per-type T + hybrid (+meta)    score      300   0.743   0.644   0.066
+per-type T + hybrid (+meta)    all        900   0.851   0.410   0.032
+

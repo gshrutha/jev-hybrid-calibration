@@ -1,3 +1,5 @@
+> **Fork note:** This fork by G Shrutha Keerthi Reddy reproduces the original study (8 October 2026) and adds per-type calibration and a hybrid model that combines Jev's answers with structured ticket fields. See [RESULTS_HYBRID.md](RESULTS_HYBRID.md). The original README follows unchanged.
+
 # Does Jev know when it doesn't know?
 
 An independent calibration test of [TypeSafe's Jev](https://typesafe.ai) on a task it cannot have seen, alongside three public benchmarks it probably has.
